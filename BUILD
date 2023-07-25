@@ -74,7 +74,7 @@ xcodeproj(
     project_name = "DemonstrationProject",
     schemes = [
         xcode_schemes.scheme(
-            name = "iOS App",
+            name = "Test Host App",
             launch_action = xcode_schemes.launch_action(":TestHostApp"),
         ),
         xcode_schemes.scheme(
