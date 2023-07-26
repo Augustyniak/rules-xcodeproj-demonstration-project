@@ -98,14 +98,4 @@ xcodeproj(
             ],
         ),
     ],
-    xcode_configurations = {
-        "Debug": {
-            "//command_line_option:compilation_mode": "dbg",
-            "//command_line_option:features": [],
-        },
-        "Release": {
-            "//command_line_option:compilation_mode": "opt",
-            "//command_line_option:features": ["swift.enable_testing"],
-        },
-    },
 )
